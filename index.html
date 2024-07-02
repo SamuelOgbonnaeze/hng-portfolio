@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="header-section">
+        <div class="header-container">
+            <div class="header-subcontainer">
+                <div class="header-content">
+                    <p data-testid="Samuel Ogbonna-Eze" class="header-title">Hi, <br /> I am Samuel Ogbonna-Eze,</p>
+                    <p class="header-subtitle">a front-end developer.</p>
+                </div>
+                <div class="header-image-container">
+                    <img data-testid="slackProfilePicture" src="public/file.jpg" alt="Profile image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me-section">
+        <div>
+            <h1 class="about-me-title">About me</h1>
+            <div class="about-me-content">
+                <p>
+                    I transitioned into tech early 2023 after graduating from the university where I studied
+                    Biochemistry. Over the past year, I have learnt HTML, CSS, JS, TailwindCSS, Bootstrap, Typescript
+                    and many other skills which I would need in my journey to becoming a certified "Tech-bro". I have
+                    built several landing pages and currently have some fullstack projects which have been deployed. To
+                    learn more about these skills, check out the<a href="http://hng.tech/learn" class="tool-link">HNG
+                        programme</a>.
+                </p>
+            </div>
+            <div class="vision-content space-y-4">
+                <h2 class="vision-title">My vision 2026</h2>
+                <div class="vision-outline space-y-2">
+                    <p className="vision-text">The goals to achieve within the next 2 years:</p>
+                    <ul class="vision-list">
+                        <li class="vision-list-item">To be proficient in Javascript, Typescript, React-query, and other
+                            tools I would need</li>
+                        <li class="vision-list-item">To have built a strong network within the tech community and be
+                            known
+                            for quality delivery</li>
+                        <li class="vision-list-item">To amass a wealth of experience and be able to lead a small team
+                            successfully</li>
+                        <li class="vision-list-item">To be gainfully employed at an international company</li>
+                        <li class="vision-list-item">To be confident in my skills and be able to tutor many who wish to
+                            ply
+                            this route</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Time and Link -->
+    <section class="tools-section">
+        <div>
+            <h2 class="tools-title">Check out recommended tools/resources</h2>
+            <div class="tools-content space-y-4">
+                <p class="tool-text"><a class="tool-link" href="http://scrapeanyweb.site/">Scrapeanyweb</a> helps extract data from any
+                    website for free!!</p>
+                <p class="tool-text">Dominate the SEO rankings using AI with <a class="tool-link"
+                        href="http://keyword.dog/">Keyword.dog</a></p>
+            </div>
+            <div class="time-section space-y-4">
+                <h2 class="time-title">What says the time?</h2>
+                <p data-testid="currentDay" id="day-message" class="time-content"></p>
+                <p data-testid="currentTimeUTC" id="time-message" class="time-content"></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="contact-section">
+        <div>
+            <h2 class="contact-title">Contact me</h2>
+            <div class="contact-content space-y-4">
+                <p>You can reach me via the following channels:</p>
+                <p>Email: <a href="mailto:nkwachukwusam01@gmail.com" class="contact-link">nkwachukwusam01@gmail.com</a>
+                </p>
+                <p data-testid="nkwachukwusam01@gmail.com">Github: <a href="https://github.com/SamuelOgbonnaeze"
+                        class="contact-link">github.com/SamuelOgbonnaeze</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
